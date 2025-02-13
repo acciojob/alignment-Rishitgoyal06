@@ -1,1 +1,28 @@
-/*  your css code here. If applicable */
+table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            width: 100%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 1px;
+        }
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+        .green {
+            background-color: green;
+            height: 40px;
+        }
+        .blue {
+            background-color: blue;
+            height: 40px;
+        }
+		#t-image {
+			display:flex;
+			justify-content:center;
+		}
